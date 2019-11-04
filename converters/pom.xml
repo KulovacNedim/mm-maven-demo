@@ -5,15 +5,11 @@
     <parent>
         <artifactId>mm-maven-demo</artifactId>
         <groupId>dev.ned</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>converters</artifactId>
-
-    <properties>
-        <mapstruct.version>1.2.0.Final</mapstruct.version>
-    </properties>
 
     <dependencies>
         <dependency>
@@ -30,10 +26,8 @@
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
-            <version>${mapstruct.version}</version>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
