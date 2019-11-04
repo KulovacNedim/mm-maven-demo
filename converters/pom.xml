@@ -11,10 +11,6 @@
 
     <artifactId>converters</artifactId>
 
-    <properties>
-        <mapstruct.version>1.2.0.Final</mapstruct.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>dev.ned</groupId>
@@ -30,10 +26,8 @@
         <dependency>
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct</artifactId>
-            <version>${mapstruct.version}</version>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
