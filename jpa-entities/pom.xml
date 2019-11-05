@@ -16,6 +16,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>javax.persistence-api</artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
         </dependency>
@@ -25,4 +29,5 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
 </project>
